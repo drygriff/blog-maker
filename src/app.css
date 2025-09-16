@@ -1,1 +1,28 @@
+:root {
+    --secondary-color: #111;
+}
 
+
+html, body {
+    background-color: #444;
+    color: #fff;
+    font-family: Orbitron, sans-serif;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+.beveledmd {
+    clip-path: polygon(0 20px,20px 0,calc(100% - 20px) 0,100% 20px,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px));
+}
+
+.beveledsm {
+    clip-path: polygon(0 20px,20px 0,calc(100% - 20px) 0,100% 20px,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px));
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url("./assets/Orbitron.ttf");
+}
